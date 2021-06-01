@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aufgabe 2</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference -->
+    <string name="messages_header">Einstellungen</string>
+    <string name="schriftgroesse">Lege die Schriftgröße fest</string>
+</resources>

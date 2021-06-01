@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CategoryDetailsActivity"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInput_kategorietitel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kategorietitel" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_kat_speichern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="btnKatSpeichernPressed"
+        android:text="Speichern" />
+
+    <Button
+        android:id="@+id/btn_kat_loeschen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="btnCatLoPressed"
+        android:text="Löschen" />
+
+    <Button
+        android:id="@+id/btn_Cat_Zur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnCatZurPressed"
+        android:text="zurück" />
+</LinearLayout>

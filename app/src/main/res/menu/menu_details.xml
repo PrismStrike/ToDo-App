@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuDetailSpeichern"
+        android:title="Speichern" />
+    <item
+        android:id="@+id/menuDetailLoeschen"
+        android:title="Löschen" />
+    <item
+        android:id="@+id/menuDetailZurueck"
+        android:title="Zurück" />
+</menu>
